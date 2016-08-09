@@ -1,0 +1,154 @@
+MACH MDAO AVL
+
+#======================================================
+#------------------- Geometry File --------------------
+#======================================================
+# AVL Conventions
+# SI Used: m, kg, etc
+
+#Mach
+0.0
+#IYsym   IZsym   Zsym
+ 0       0       0
+#Sref    Cref    b_wing
+1.7775  0.414220581341  4.0
+#Xref    Yref    Zref
+0.103555145335 0 0
+# CDp
+0.0116
+
+#======================================================
+#--------------------- Main Wing ----------------------
+#======================================================
+SURFACE
+Wing
+#Nchordwise  Cspace   [Nspan   Sspace]
+     10        1.0      30      -2.0
+YDUPLICATE
+0.0
+SCALE
+1.0  1.0  1.0
+TRANSLATE
+0.0  0.0  0.0
+ANGLE
+0.0
+#------------------------------------------------------
+
+SECTION
+#Xle  Yle  Zle  |  Chord   Ainc   Nspan   Sspace
+0    0    0       0.5     0      8      3
+AFILE
+airfoils/A_0.dat
+SECTION
+#Xle  Yle  Zle  |  Chord   Ainc   Nspan   Sspace
+0.0025    0.5    0       0.49     0      8      3
+AFILE
+airfoils/A_1.dat
+SECTION
+#Xle  Yle  Zle  |  Chord   Ainc   Nspan   Sspace
+0.0125    1.0    0       0.45     0      8      3
+AFILE
+airfoils/A_2.dat
+SECTION
+#Xle  Yle  Zle  |  Chord   Ainc   Nspan   Sspace
+0.025    1.5    0       0.4     0      8      3
+AFILE
+airfoils/A_3.dat
+SECTION
+#Xle  Yle  Zle  |  Chord   Ainc   Nspan   Sspace
+0.03125    2.0    0       0.375     0      8      3
+AFILE
+airfoils/A_4.dat
+
+#======================================================
+#------------------- Horizontal Tail ------------------
+#======================================================
+SURFACE
+Horizontal Tail
+#Nchordwise  Cspace   Nspan   Sspace
+7       1.0           10        -2 
+YDUPLICATE
+0.0
+SCALE
+1.0  1.0  1.0
+TRANSLATE
+0.0  0.0  0.0
+ANGLE
+0
+
+#------------------TAIL ROOT/ELEVATOR------------------
+SECTION
+#Xle   Yle     Zle     Chord   Ainc
+1.0  0   0.0  0.229  0.000
+NACA
+0012
+CLAF
+1.1078
+
+CONTROL
+#surface gain xhinge hvec SgnDup
+Elevator -1.00 0.5 0 1 0 1.00
+
+#--------------------TAIL Tip--------------------------
+SECTION
+#Xle   Yle     Zle     Chord   Ainc
+1.0  0.463 0.000   0.229  0.000
+NACA
+0012
+CLAF
+1.1078
+
+CONTROL
+#surface gain xhinge hvec SgnDup
+Elevator -1.00 0.5 0 1 0 1.00
+
+#======================================================
+#------------------- Vertical Tail --------------------
+#======================================================
+SURFACE
+Vertical Tail
+# Nchordwise Cspace Nspanwise Sspace
+10 1.00 10 -2.0
+YDUPLICATE
+0.0
+#Xscale Yscale Zscale
+SCALE
+1.0 1.0 1.0
+
+ANGLE
+0.0
+TRANSLATE
+0.0 0.0 0.0
+
+INDEX
+2
+
+#----------------------ROOT/RUDDER---------------------
+SECTION
+#Xle   Yle     Zle     Chord   Ainc
+0.933  0.463   -0.099   0.229   0.000
+NACA
+0012
+CLAF
+1.1078
+
+CONTROL
+#surface gain xhinge hvec SgnDup
+Rudder 1.00 0.5 0 0 1 -1.00
+
+#-----------------------TIP/RUDDER---------------------
+SECTION
+#Xle   Yle     Zle     Chord   Ainc
+0.933  0.463   0.099   0.229   0.000
+NACA
+0012
+CLAF
+1.1078
+CONTROL
+#surface gain xhinge hvec SgnDup
+Rudder 1.00 0.5 0 0 1 -1.00
+#------------------------------------------------------
+
+
+
+# -- END OF FILE --

@@ -1,0 +1,20 @@
+['ALPSO', 'CONMIN', 'FSQP', 'IPOPT', 'NLPQLP', 'NSGA2', 'PSQP', 'SLSQP', 'SNOPT', 'NLPY_AUGLAG']'
+
+
+#
+# prob.driver.options['optimizer'] = 'NSGA2'
+# prob.driver.opt_settings = {'PopSize': 20, 'maxGen':100, 'seed': 1.0}
+
+
+camber: [ 0.13260127]
+max camber pos: [ 0.43557711]
+thickness: [ 0.12693149]
+max thickness pos: [ 0.32318487]
+
+
+SM: 0.195403554676
+Score: -3759.83943049
+N: 4.0  time: 240.160569505
+
+
+[Finished in 2791.4s]

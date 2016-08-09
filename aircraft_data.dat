@@ -1,0 +1,429 @@
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   0.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.07561     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.18416
+  CZtot =  -0.99454     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   0.99454
+  CDtot =   0.07561
+  CDvis =   0.01160     CDind =   0.06401
+  CLff  =   0.99454     CDff  =   0.08861    | Trefftz
+  CYff  =   0.00000         e =    0.6305    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   1.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.06630     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.25668
+  CZtot =  -1.07928     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.07796
+  CDtot =   0.08513
+  CDvis =   0.01160     CDind =   0.07353
+  CLff  =   1.07924     CDff  =   0.09782    | Trefftz
+  CYff  =   0.00000         e =    0.6726    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   2.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.05483     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.32899
+  CZtot =  -1.16331     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.16069
+  CDtot =   0.09540
+  CDvis =   0.01160     CDind =   0.08380
+  CLff  =   1.16361     CDff  =   0.10757    | Trefftz
+  CYff  =   0.00000         e =    0.7110    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   3.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.04121     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.40101
+  CZtot =  -1.24653     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.24266
+  CDtot =   0.10640
+  CDvis =   0.01160     CDind =   0.09480
+  CLff  =   1.24763     CDff  =   0.11785    | Trefftz
+  CYff  =   0.00000         e =    0.7461    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   4.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.02546     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.47266
+  CZtot =  -1.32884     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.32383
+  CDtot =   0.11809
+  CDvis =   0.01160     CDind =   0.10649
+  CLff  =   1.33127     CDff  =   0.12865    | Trefftz
+  CYff  =   0.00000         e =    0.7781    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   5.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =  -0.00759     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.54384
+  CZtot =  -1.41013     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.40411
+  CDtot =   0.13047
+  CDvis =   0.01160     CDind =   0.11887
+  CLff  =   1.41451     CDff  =   0.13995    | Trefftz
+  CYff  =   0.00000         e =    0.8075    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   6.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.01237     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.61448
+  CZtot =  -1.49032     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.48345
+  CDtot =   0.14348
+  CDvis =   0.01160     CDind =   0.13188
+  CLff  =   1.49731     CDff  =   0.15175    | Trefftz
+  CYff  =   0.00000         e =    0.8345    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   7.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.03440     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.68448
+  CZtot =  -1.56929     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.56179
+  CDtot =   0.15711
+  CDvis =   0.01160     CDind =   0.14551
+  CLff  =   1.57966     CDff  =   0.16401    | Trefftz
+  CYff  =   0.00000         e =    0.8594    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   8.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.05847     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.75375
+  CZtot =  -1.64696     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.63907
+  CDtot =   0.17131
+  CDvis =   0.01160     CDind =   0.15971
+  CLff  =   1.66152     CDff  =   0.17675    | Trefftz
+  CYff  =   0.00000         e =    0.8823    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =   9.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.08455     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.82222
+  CZtot =  -1.72324     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.71525
+  CDtot =   0.18606
+  CDvis =   0.01160     CDind =   0.17446
+  CLff  =   1.74288     CDff  =   0.18992    | Trefftz
+  CYff  =   0.00000         e =    0.9034    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  10.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.11262     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.88980
+  CZtot =  -1.79802     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.79026
+  CDtot =   0.20132
+  CDvis =   0.01160     CDind =   0.18972
+  CLff  =   1.82371     CDff  =   0.20353    | Trefftz
+  CYff  =   0.00000         e =    0.9231    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  11.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.14263     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -0.95641
+  CZtot =  -1.87121     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.86405
+  CDtot =   0.21704
+  CDvis =   0.01160     CDind =   0.20544
+  CLff  =   1.90398     CDff  =   0.21755    | Trefftz
+  CYff  =   0.00000         e =    0.9413    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------
+ ---------------------------------------------------------------
+ Vortex Lattice Output -- Total Forces
+
+ Configuration: MACH MDAO AVL                                               
+     # Surfaces =   6
+     # Strips   =  80
+     # Vortices = 620
+
+  Sref = 0.79169       Cref = 0.36625       Bref =  2.1122    
+  Xref =  0.0000       Yref =  0.0000       Zref =  0.0000    
+
+ Standard axis orientation,  X fwd, Z down         
+
+ Run case:  -unnamed-                              
+
+  Alpha =  12.00000     pb/2V =  -0.00000     p'b/2V =  -0.00000
+  Beta  =   0.00000     qc/2V =   0.00000
+  Mach  =     0.000     rb/2V =  -0.00000     r'b/2V =  -0.00000
+
+  CXtot =   0.17455     Cltot =  -0.00000     Cl'tot =  -0.00000
+  CYtot =   0.00000     Cmtot =  -1.02196
+  CZtot =  -1.94274     Cntot =  -0.00000     Cn'tot =  -0.00000
+
+  CLtot =   1.93658
+  CDtot =   0.23318
+  CDvis =   0.01160     CDind =   0.22158
+  CLff  =   1.98367     CDff  =   0.23196    | Trefftz
+  CYff  =   0.00000         e =    0.9582    | Plane  
+
+   Elevator        =   0.00000
+   Rudder          =   0.00000
+
+ ---------------------------------------------------------------

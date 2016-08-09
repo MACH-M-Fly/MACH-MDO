@@ -1,0 +1,13 @@
+  
+       XFOIL         Version 6.97
+  
+ Calculated polar for: EPPLER 420 AIRFOIL                              
+  
+ 1 1 Reynolds number fixed          Mach number fixed         
+  
+ xtrf =   1.000 (top)        1.000 (bottom)  
+ Mach =   0.000     Re =     0.400 e 6     Ncrit =   9.000
+  
+   alpha    CL        CD       CDp       CM     Top_Xtr  Bot_Xtr
+  ------ -------- --------- --------- -------- -------- --------
+  13.000   1.9377   0.05840   0.05303  -0.1940   0.2500   1.0000

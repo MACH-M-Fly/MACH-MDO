@@ -17,6 +17,7 @@ from time import localtime, strftime, time
 from xfoil.xfoil_lib import xfoil_alt, getData_xfoil
 from lib_aero import get_aeroCoef, num_laps
 
+from test_class import Surface
 
 
 
@@ -43,6 +44,8 @@ class obj(Component):
 		self.add_param('thickness', val=np.zeros(5))	
 		self.add_param('max_camb_pos', val=np.zeros(5))	
 		self.add_param('max_thick_pos', val=np.zeros(5))	
+
+		self.add_param('test_class', Surface(), desc ='Chord Tail')	 
 
 
 		# # set up outputs
@@ -160,5 +163,7 @@ class obj(Component):
 		print('SM: ' + str(unknowns['SM']))
 		print('Score: ' + str( unknowns['score']))
 		print('\n')
+
+		params['test_class'].out()
 
 			# print('==============================================')

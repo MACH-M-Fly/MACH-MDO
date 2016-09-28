@@ -18,6 +18,8 @@ from weight import weight
 from obj import obj
 from lib_plot import *
 
+
+
 FFMpegWriter = animation.writers['ffmpeg']
 metadata = dict(title='MACH MDO', artist='MACH',comment='MDO Animation') 
 writer = FFMpegWriter(fps=15, metadata=metadata)
@@ -55,7 +57,7 @@ class Constrained_MDO(Group):
 		# ====================================== Params =============================================== #
 
 		self.add('b_wing',IndepVarComp('b_wing',2.5)) 		# Wing Span 
-		self.add('C_r',IndepVarComp('C_r',0.603))			# Root Airfoil Cord
+		self.add('C_r',IndepVarComp('C_r',0.603))			# Root Airfoil Cord (at 1)
 		self.add('t2',IndepVarComp('t2',0.9506))  			# Taper ratio at 2
 		self.add('t3',IndepVarComp('t3',0.9517))			# Taper ratio at 3 
 		self.add('t4',IndepVarComp('t4',0.9558))			# Taper ratio at 4
@@ -114,6 +116,9 @@ class Constrained_MDO(Group):
 		self.connect('weight.Xle_t', 'Plot.Xle_t')
 		self.connect('weight.Yle_t', 'Plot.Yle_t')
 		self.connect('weight.C_t', 'Plot.C_t')
+
+		self.connect('weight.test_class', 'obj.test_class')
+
 
 		# Connections obj Module
 		self.connect('obj.NP', 'Plot.NP')					

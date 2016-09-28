@@ -20,11 +20,11 @@ mu_k = 0.005
 
 inced_ang = -5.0 *np.pi/180.0
 
-xfoil_path = '/home/josh/Documents/Research/MACHMDO/runwaysim/xfoil/elev_data'
+xfoil_path = './xfoil'
 
 
-alphas_tail, CLs_tail_flap = getData_xfoil(xfoil_path+ '_flap.dat')[0:2]
-alphas_tail_noflap,CLs_tail_noflap = getData_xfoil(xfoil_path+ '.dat')[0:2]
+alphas_tail, CLs_tail_flap = getData_xfoil(xfoil_path+ '/elev_data_flap.dat')[0:2]
+alphas_tail_noflap,CLs_tail_noflap = getData_xfoil(xfoil_path+ '/elev_data.dat')[0:2]
 alphas_tail = [x * np.pi/180 for x in alphas_tail]
 CL_tail_flap = np.poly1d(np.polyfit(alphas_tail,CLs_tail_flap, 2))
 CL_tail_noflap = np.poly1d(np.polyfit(alphas_tail_noflap,CLs_tail_noflap, 2))
@@ -58,6 +58,7 @@ def get_aeroCoef(filename = 'aircraft'):
 
 	# convert to radians
 
+	print('CL',CLS)
 
 	alphas = [x * np.pi/180 for x in alphas]
 	
@@ -379,14 +380,14 @@ def runway_sim_small(CL, CD, CM, Sref_wing, Sref_tail, weight, boom_len, dist_LG
 	# plt.show()
 
 	
-	# print('Takeoff:' + str(takeoff))
-	# print('Distance: ' + str(dist[i]))
-	# print('vel: ' + str(vel[i]))
-	# print('ang: ' + str(ang[i]*180.0/np.pi) + ' max_rot_ang: ' + str(max_rot_ang*180.0/np.pi))
-	# print('ang_vel: ' + str(ang_vel[i]))
-	# print('time: ' + str(time[i]))
-	# print('steps: ' + str(len(time)))
-	# print('\n')
+	print('Takeoff:' + str(takeoff))
+	print('Distance: ' + str(dist[i]))
+	print('vel: ' + str(vel[i]))
+	print('ang: ' + str(ang[i]*180.0/np.pi) + ' max_rot_ang: ' + str(max_rot_ang*180.0/np.pi))
+	print('ang_vel: ' + str(ang_vel[i]))
+	print('time: ' + str(time[i]))
+	print('steps: ' + str(len(time)))
+	print('\n')
 
 	return (takeoff, dist[i], vel[i], ang[i], ang_vel[i], time[i])
 

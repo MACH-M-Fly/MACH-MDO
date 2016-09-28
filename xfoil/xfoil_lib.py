@@ -9,7 +9,7 @@ from time import localtime, strftime
 # xfoilpath = '/home/josh/Documents/Xfoil/bin/xfoil'
 #xfoilpath = r'D:\home\josh\Documents\Xfoil\bin\xfoil.exe'
 
-xfoilpath = '/home/josh/xfoil'
+xfoilpath = './xfoil/xfoil'
 
 
 def xfoil_alt(name, camber, max_camb_pos, thickness, max_thick_pos, Re, alpha ):
